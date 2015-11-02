@@ -3,5 +3,9 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+{% for post in site.posts %}
+    <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+    {{post.excerpt}}
+{% endfor %}
 </body>
 </html>
