@@ -6,5 +6,5 @@ author: Tyler Whittin
 exclude: instructions.txt, Gemfile, Gemfile.lock
 
 permalink: "/:title"
-paginate: 2
+paginate: 10
 paginate_path: "/:num"
