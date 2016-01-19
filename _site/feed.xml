@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My blog</title>
-    <description>test blog</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <title>A Beginner&#39;s Journey in Game Design</title>
+    <description>This is a blog where I talk about game design and development as a programmer from outside the games industry.
+</description>
+    <link>http://relyt462.github.io/</link>
+    <atom:link href="http://relyt462.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Jan 2016 19:57:05 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 19:57:05 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Hello World!</title>
-        <description>&lt;p&gt;Welcome to my new &lt;strong&gt;blag&lt;/strong&gt;!&lt;/p&gt;
+        <title>Welcome</title>
+        <description>&lt;p&gt;Hey all and welcome,&lt;/p&gt;
+
+&lt;p&gt;I decided to open up this blog with a simple welcome post describing what I intend to primarily use it for. This blog is going to be used for documenting my experiences with game design and development along with tutorials on open source projects I release or intend to release. There are going to be two series to begin with: a tutorial for building a 2d game engine using sdl2 and c++, and a series on my experiences and thoughts on tabletop rpg design following the development of a game I am currently developing.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 01 Nov 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/hello-world</link>
-        <guid isPermaLink="true">http://localhost:4000/hello-world</guid>
+        <pubDate>Fri, 08 Jan 2016 10:13:00 -0500</pubDate>
+        <link>http://relyt462.github.io/miscellaneous/2016/01/08/welcome.html</link>
+        <guid isPermaLink="true">http://relyt462.github.io/miscellaneous/2016/01/08/welcome.html</guid>
+        
+        
+        <category>miscellaneous</category>
+        
       </item>
     
   </channel>

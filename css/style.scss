@@ -6,8 +6,14 @@ $phone-max-width: 570px;
 $desktop-vertical-margins: 20px;
 $phone-vertical-margins: 10px;
 
-$main-color: #F91111;
-$text-color: #564A4A;
+$primary-color-dark:   #303F9F;
+$primary-color:        #3F51B5;
+$primary-color-light:  #C5CAE9;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #03A9F4;
+$primary-text-color:   #212121;
+$secondary-text-color: #727272;
+$divider-color:        #B6B6B6;
 
 @mixin on-phone {
     @media screen and (max-width: $phone-max-width){
@@ -15,21 +21,43 @@ $text-color: #564A4A;
     }
 }
 
+ul{
+	list-style-type: none;
+	margin: -10px;
+}
+
+li {
+	/*Add your CSS here!*/
+	display:inline;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+}
+
+#top{
+    position: static;
+    margin: 0px 0px 0px 0px;
+    left: 20%;
+    border: none;
+    float: top;
+    background-color: $primary-color-dark;
+    color: $primary-text-color;
+}
+
 #body{
     max-width: $body-width;
-    color: $text-color;
+    color: $primary-text-color;
     margin: $desktop-vertical-margins auto;
-    @include on-phone{
+    @include on-phone {
         margin:phone-vertical-margins auto;
     }
 }
 
 a {
-    color:$main-color;
+    color:$secondary-text-color;
     text-decoration: none;
 
     &:hover {
-        color: lighten($main-color, 15%);
+        color: $primary-color-light;
         text-decoration: underline;
     }
 }

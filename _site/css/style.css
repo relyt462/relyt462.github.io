@@ -1,14 +1,33 @@
+ul {
+  list-style-type: none;
+  margin: -10px; }
+
+li {
+  /*Add your CSS here!*/
+  display: inline;
+  font-family: Futura, Tahoma, sans-serif;
+  color: #ffffff; }
+
+#top {
+  position: static;
+  margin: 0px 0px 0px 0px;
+  left: 20%;
+  border: none;
+  float: top;
+  background-color: #303F9F;
+  color: #212121; }
+
 #body {
   max-width: 800px;
-  color: #564A4A;
+  color: #212121;
   margin: 20px auto; }
   @media screen and (max-width: 570px) {
     #body {
       margin: phone-vertical-margins auto; } }
 
 a {
-  color: #F91111;
+  color: #727272;
   text-decoration: none; }
   a:hover {
-    color: #fb5c5c;
+    color: #C5CAE9;
     text-decoration: underline; }
